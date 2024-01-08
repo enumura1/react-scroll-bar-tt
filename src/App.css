@@ -1,0 +1,25 @@
+body {
+  padding: 0;
+  margin: 0;
+}
+
+section {
+  height: 100vh;
+  width: 100%;
+  background-color: white;
+  font-size: 5rem;
+  text-align: center;
+}
+
+::-webkit-scrollbar {
+  width: 30px;
+}
+
+::-webkit-scrollbar-thumb {
+  border-radius: 30px;
+  background: linear-gradient(0deg, #f8a8ff, #8ad3fa);
+}
+
+::-webkit-scrollbar-track {
+  background: linear-gradient(0deg, rgb(0, 50, 91), #d3e2ff);
+}
